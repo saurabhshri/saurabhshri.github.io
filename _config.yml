@@ -1,7 +1,7 @@
-title:            Notepad
-description:      "Blogging is fun"
-logo:             logo3.png
-disqus_shortname: hmfaysal
+title:            Saurabh Shrivastava | May The Twenty Fourth Be With You
+description:      "The personal blog of Saurabh Shrivastava, pursuing Information Technology Engineering from IET DAVV and upcoming software developer. "
+logo:             saurabh_shrivastava_logo_circle.png
+disqus_shortname: saurabhshri
 share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
@@ -10,21 +10,21 @@ url:        	  https://saurabhshri.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         hmfaysal.jpg
-  email:          you@email.com
+  name:           Saurabh Shrivastava
+  avatar:         saurabh_shrivastava_logo_circle.png
+  email:          saurabh.shrivastava54@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    Student | Learner | Creator
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        shubh_saurabh
+  #facebook:       
+  github:         saurabhshri      
+  #instagram:      
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  google_plus:    https://plus.google.com/u/0/+saurabhshrivastava24
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:   UA-93488639-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -41,10 +41,10 @@ links:
   - title: Categories
     url: /categories
   - title: About
-    url: /hossain-mohd-faysal
+    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Kolkata
 future:      true
 highlighter: pygments
 markdown:    kramdown
@@ -52,7 +52,7 @@ paginate:    5
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:year/:month/:categories/:title
 
 kramdown:
   auto_ids: true
