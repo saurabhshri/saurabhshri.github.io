@@ -10,9 +10,8 @@ headline: Hello World!
 categories:
   - personal
   - News
-tags: 'hello, world, first post, welcome, introduction, about, saurabh shrivastava '
+tags: Saurabh Shrivastava general announcement about
 imagefeature: posts/hello-world.png
-modified: ''
 ---
 Hello everybody! This blog will contain all the updates by me. I will try my best to update it regularly. Stay tuned!
 
