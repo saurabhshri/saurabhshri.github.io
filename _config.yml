@@ -1,6 +1,6 @@
 title:            //Saurabh Shrivastava
 description:      " May The Twenty Fourth Be With You "
-logo:             saurabh_shrivastava_logo_circle.png
+logo:             saurabh_logo_s.png
 disqus_shortname: saurabhshri
 share:            true
 dropcap:		    	true
@@ -49,7 +49,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
