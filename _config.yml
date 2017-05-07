@@ -49,10 +49,11 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
 future:      true
-highlighter: rouge
-markdown:    kramdown
+#highlighter: rouge
+#markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
+highlight_theme: light
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:year/:month/:categories/:title
