@@ -18,11 +18,11 @@ My proposal _CCAligner - Word by Word Subtitle Synchronization_ with CCExtractor
 
 >If you are reading this, chances are, you already know what's GSoC. In case you don't, here's official link to the same : [http://g.co/gsoc](http://g.co/gsoc) . 
 
-I am very happy to announce that my proposal to build a tool for word by word audio subtitle synchronization has been selected for Google Summer of Code. I will be working with the organisation [CCExtractor Development](https://ccextractor.org "CCExtractor Website.") which made the de-facto subtitle extraction tool - [CCExtractor](https://github.com/CCExtractor/ccextractor "CCExtractor on Github."). I am super excited to work with my mentors [Carlos Fernandez Sanz](https://github.com/cfsmp3 "Carlos' Github profile.") (who originally build CCExtractor) and [Alex Bratosin](https://github.com/AlexBratosin2001 "Alex's Github profile.") (CCExtractor GCI 2016 Winner).
+I am very happy to announce that my proposal to build a tool for word by word audio subtitle synchronization has been selected for Google Summer of Code. I will be working with the organization [CCExtractor Development](https://ccextractor.org "CCExtractor Website.") which made the de-facto subtitle extraction tool - [CCExtractor](https://github.com/CCExtractor/ccextractor "CCExtractor on Github."). I am super excited to work with my mentors [Carlos Fernandez Sanz](https://github.com/cfsmp3 "Carlos' Github profile.") (who originally built CCExtractor) and [Alex Bratosin](https://github.com/AlexBratosin2001 "Alex's Github profile.") (CCExtractor GCI 2016 Winner).
 
 ### What is my project about?
 
-I have named my project **CCAligner** as it convineintly lays out it's basic functionality and also adheres to the name of it's parent tool CCExtractor. So, what generally happens is that the usual subtitle files (such as SubRips) have line by line synchronization in them i.e. the subtitles containing the dialogue appear when the person starts talking and disappears when the dialogue finishes. This continues for the whole video. For example :
+I have named my project **CCAligner** as it conveniently lays out it's basic functionality and also adheres to the name of it's parent tool CCExtractor. So, what generally happens is that the usual subtitle files (such as SubRips) have line by line synchronization in them i.e. the subtitles containing the dialogue appear when the person starts talking and disappears when the dialogue finishes. This continues for the whole video. For example :
 
 1274  
 01:55:48,484 -- 01:55:50,860  
@@ -44,7 +44,7 @@ In the above example each word from subtitle is tagged with beginning and ending
 
 ### Why is this useful?
 
-While watching a video, it makes sense to have a whole / part of sentence displayed on screen rather than individual words as they are spoken. But there are cases where having timing information of each word is very important. Think of a scenario where you have to tag an occurance of an event, marked by a special word, then having the information about when the word was spoken is what we need. This is a very basic example to just give you an idea. I have written about various possible applications of this tool in my proposal, and do give it a read if you are interested.
+While watching a video, it makes sense to have a whole / part of sentence displayed on screen rather than individual words as they are spoken. But there are cases where having timing information of each word is very important. Think of a scenario where you have to tag an occurrence of an event, marked by a special word, then having the information about when the word was spoken is what we need. This is a very basic example to just give you an idea. I have written about various possible applications of this tool in my proposal, and do give it a read if you are interested.
 
 I really hope by the end of summer, the tool gets ready to be used. The basic flow of usage would be really simple. Just call the tool, pass the audio file, the subtitle file, choose the mode, the output type and the result should be word by word subtitle synchronization.
 
@@ -54,7 +54,7 @@ Right now, it's community bonding period. I just finished my exams and returned 
 
 ### The GSoC result was announced on 4th, why such a late post? Am I lazy?
 
-While I might be lazy, which I most certainly am, it has nothing to do with me being late. I fell in love with open-source ever since I made my first contribution, and I extremely excited for this GSoC. I was amidst my semester examinations when the result was announced. I had already intimidated my mentors about the same and they themselves advised me to prioritize exams. I will be pulishing few more posts about the same later on.
+While I might be lazy, which I most certainly am, it has nothing to do with me being late. I fell in love with open-source ever since I made my first contribution, and I extremely excited for this GSoC. I was amidst my semester examinations when the result was announced. I had already intimidated my mentors about the same and they themselves advised me to prioritize exams. I will be publishing few more posts about the same later on.
 
 ### Where's the proof of selection and my proposal?
 
@@ -65,4 +65,4 @@ This is the official link about my project on Google Summer of Code website - [h
 
 About my proposal, you may find it in Google's official storage [here](https://storage.googleapis.com/summerofcode-prod.appspot.com/gsoc/core_project/doc/5565268630700032_1490805743_Word_by_Word_Subtitle_Sync_by_Saurabh_Shrivastava_CCExtractor.pdf?Expires=1494300173&GoogleAccessId=summerofcode-prod%40appspot.gserviceaccount.com&Signature=gzgmA4f%2Bxk0GhORnCseZ6nze0MlsWcwfjBAjaFOcoYiqtK6%2FJuSNOfKIGCn20G97JwFe%2FoiK1rXByLLqtUUpTUT%2FHRSYfmGl%2BNgvtepYlFLjrRVVtexsZYIVtWxoWM%2F0s79AX1FyZ0e3lZngGBB%2BXduw0EjEYGKatc9qm3c%2FXqjJzqm24OXnPMteZsEasFKefPhAJjS4JgOOzYz4OaDxQDdty1NjsPqquwAQywRumT9MsagIq8iiitqumHS77SZHl3Fjcggl7J9Nt6eb0GehTQWFlZAJytrre%2BEvXx8f7tRrWLrxjgsj8NSJ9GE7fd1UyKPWwwiXeJEtZ8kZI7nC0Q%3D%3D "GSoC Proposal - CCAligner") and in case that link doesn't work (please comment about the same, I shall replace it), here's the [mirror](https://github.com/saurabhshri/saurabhshri.github.io/blob/master/GSoC/5565268630700032_1490805743_Word_by_Word_Subtitle_Sync_by_Saurabh_Shrivastava_CCExtractor.pdf "Mirror of my GSoC proposal on Github.").
 
-Follow this blog to read my future posts. Thank you for reading. Feel free to comment with your views, questions and criticism, if any. I would love to discuss them. :) 
+Follow this blog to read my future posts. Thank you for reading. Feel free to comment with your views, questions and criticism, if any. I would love to discuss them. :)
