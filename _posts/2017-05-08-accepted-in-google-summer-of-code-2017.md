@@ -11,16 +11,14 @@ description: >-
   Saurabh Shrivastava.
 categories:
   - GSoC
-tags: 'GSoC, open-source, CCExtractor, FOSS, Subtitles'
+tags: GSoC open-source CCExtractor FOSS Subtitles
 imagefeature: posts/Accepted_in_GSoC.png
-headline: ''
-modified: ''
 ---
 My proposal _CCAligner - Word by Word Subtitle Synchronization_ with CCExtractor Development has been accepted for Google Summer of Code (GSoC) 2017!
 
 >If you are reading this, chances are, you already know what's GSoC. In case you don't, here's official link to the same : [http://g.co/gsoc](http://g.co/gsoc) . 
 
-I am very happy to announce that my proposal to build a tool for word by word audio subtitle synchronization has been selected for Google Summer of Code. I will be working with the organisation [CCExtractor Development](ccextractor.org "CCExtractor Website.") which made the de-facto subtitle extraction tool - [CCExtractor](https://github.com/CCExtractor/ccextractor "CCExtractor on Github."). I am super excited to work with my mentors [Carlos Fernandez Sanz](https://github.com/cfsmp3 "Carlos' Github profile.") (who originally build CCExtractor) and [Alex Bratosin](https://github.com/AlexBratosin2001 "Alex's Github profile.") (CCExtractor GCI 2016 Winner).
+I am very happy to announce that my proposal to build a tool for word by word audio subtitle synchronization has been selected for Google Summer of Code. I will be working with the organisation [CCExtractor Development](https://ccextractor.org "CCExtractor Website.") which made the de-facto subtitle extraction tool - [CCExtractor](https://github.com/CCExtractor/ccextractor "CCExtractor on Github."). I am super excited to work with my mentors [Carlos Fernandez Sanz](https://github.com/cfsmp3 "Carlos' Github profile.") (who originally build CCExtractor) and [Alex Bratosin](https://github.com/AlexBratosin2001 "Alex's Github profile.") (CCExtractor GCI 2016 Winner).
 
 ### What is my project about?
 
@@ -63,7 +61,7 @@ While I might be lazy, which I most certainly am, it has nothing to do with me b
 I am including this, only to show-off my name on GSoC website :P .
 This is the official link about my project on Google Summer of Code website - [https://summerofcode.withgoogle.com/projects/#5589068587991040](https://summerofcode.withgoogle.com/projects/#5589068587991040 "CCAligner - Word by Word Subtitle Synchronization | Google Summer of Code Project by Saurabh Shrivastava") . I shall also soon add myself on CCExtractor's website. 
 
-![My Project listed on GSoC website.]({{site.baseurl}}/https://saurabhshri.github.io/images/posts/accepted_proof.PNG)
+![My Project listed on GSoC website.]({{site.baseurl}}/images/posts/accepted_proof.PNG)
 
 About my proposal, you may find it in Google's official storage [here](https://storage.googleapis.com/summerofcode-prod.appspot.com/gsoc/core_project/doc/5565268630700032_1490805743_Word_by_Word_Subtitle_Sync_by_Saurabh_Shrivastava_CCExtractor.pdf?Expires=1494300173&GoogleAccessId=summerofcode-prod%40appspot.gserviceaccount.com&Signature=gzgmA4f%2Bxk0GhORnCseZ6nze0MlsWcwfjBAjaFOcoYiqtK6%2FJuSNOfKIGCn20G97JwFe%2FoiK1rXByLLqtUUpTUT%2FHRSYfmGl%2BNgvtepYlFLjrRVVtexsZYIVtWxoWM%2F0s79AX1FyZ0e3lZngGBB%2BXduw0EjEYGKatc9qm3c%2FXqjJzqm24OXnPMteZsEasFKefPhAJjS4JgOOzYz4OaDxQDdty1NjsPqquwAQywRumT9MsagIq8iiitqumHS77SZHl3Fjcggl7J9Nt6eb0GehTQWFlZAJytrre%2BEvXx8f7tRrWLrxjgsj8NSJ9GE7fd1UyKPWwwiXeJEtZ8kZI7nC0Q%3D%3D "GSoC Proposal - CCAligner") and in case that link doesn't work (please comment about the same, I shall replace it), here's the [mirror](https://github.com/saurabhshri/saurabhshri.github.io/blob/master/GSoC/5565268630700032_1490805743_Word_by_Word_Subtitle_Sync_by_Saurabh_Shrivastava_CCExtractor.pdf "Mirror of my GSoC proposal on Github.").
 
