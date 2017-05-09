@@ -43,6 +43,8 @@ links:
     url: /featured
   - title: Categories
     url: /categories
+- title: GSoC
+    url: /gsoc
   - title: About
     url: /about
 
