@@ -10,9 +10,12 @@ tags:
 imagefeature: fourseasons.jpg
 chart: true
 published: true
+description: >-
+  I am Saurabh Shrivastava, and IT Engineering undergrad currently doing GSoC
+  with CCExtractor Development.
 ---
 <figure>
-  <img src="{{ site.url }}/images/about/saurabh-shrivastava.png" alt="Saurabh Shrivastava">
+  <img src="{{ site.url }}/images/about/saurabh-shrivastava.png" alt="Saurabh Shrivastava" style="width:35%;" >
   <figcaption>Saurabh Shrivastava</figcaption>
 </figure>
 
