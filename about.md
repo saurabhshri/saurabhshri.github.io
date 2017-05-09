@@ -13,6 +13,10 @@ published: true
 description: >-
   I am Saurabh Shrivastava, and IT Engineering undergrad currently doing GSoC
   with CCExtractor Development.
+comments: true
+categories:
+  - personal
+featured: false
 ---
 <figure>
   <img src="{{ site.url }}/images/about/saurabh-shrivastava.png" alt="Saurabh Shrivastava" style="width:35%;" >
