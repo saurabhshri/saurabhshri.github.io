@@ -60,7 +60,7 @@ All in all, the subtitle (SRT) parser must have at least following functionaliti
 5. Should be able to extract and strip non dialogue elements (e.g. (applause) to {blank}).
 6. Should be easy to use and efficient in functioning.
 
-One of the major advantages of Open-Source is, that one does not need to reinvent the wheel. :) So obviously before head-diving into writing the code I did a bit of search to see what work is already been done. There are not a lot of SRT parser I could find which were written in C++, but I found a one in which there is a base, but everything is very raw and perfect for adding onto. Obviously I wasn't expecting to find a parser exactly as per my need. [Here's](github.com/young-developer/subtitle-parser) the repository. 
+One of the major advantages of Open-Source is, that one does not need to reinvent the wheel. :) So obviously before head-diving into writing the code I did a bit of search to see what work is already been done. There are not a lot of SRT parser I could find which were written in C++, but I found a one in which there is a base, but everything is very raw and perfect for adding onto. Obviously I wasn't expecting to find a parser exactly as per my need. [Here's](https://github.com/young-developer/subtitle-parser) the repository. 
 
 I have already begun working on it. The original parser could only return starting and ending time (in ms) and subtitle text. I have modified it to be capable of performing the functionalities I listed above. The work is still raw, but I am sure it should come out great.
 
@@ -194,6 +194,3 @@ Looks good, right? :)
 Of course there's a lot of work left. I will also spend quite a time in optimizing the performance and documenting it so that other people can also use it. 
 
 If you guys have any suggestions for the parser, or would like to request a feature, feel free to post in the comments or mail me. I will be adding link to the repository as soon as I upload it.
-
-
-
