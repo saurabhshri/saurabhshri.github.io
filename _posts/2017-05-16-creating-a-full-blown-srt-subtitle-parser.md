@@ -3,14 +3,14 @@ layout: post
 published: true
 mathjax: false
 featured: false
-comments: false
+comments: true
 title: 'Creating a full blown (SRT) Subtitle Parser '
-description: ''
-headline: ''
-modified: ''
-categories: ''
-tags: ''
-imagefeature: ''
+description: >-
+  I am creating a full blown, simple yet powerful SRT subtitle parser in C++ .
+  It will be the first step in my GSoC 2017 project pipeline.
+categories:
+  - GSoC
+tags: GSoC open-source Subtitles Parser C++ SRT
 ---
 Creating a C++ subtitle parsing library to fetch and process subtitle file easily and efficiently.
 
@@ -73,10 +73,10 @@ Right now my srt parser successfully does the following :
 But there are some issues, after all I have only just begun working on it. These issues are expected to be resolved soon.
 
 1. Style tags and non dialogue texts are stripped but not stored.
-2. Only single name speaker name is extracted, i.e. works for `Elon: Hi` but only extracts last name for `Elon Musk: Hi`. I'll add a check to extract both.
-3. To convert time to ms, I am currently usin regex, which I do not like. Plus they are only available in C++ 11 and above. So, I have to search an alternative for that.
+2. Only single-name speaker name is extracted, i.e. works for `Elon: Hi` but only extracts last name for `Elon Musk: Hi`. I'll add a check to extract both.
+3. To convert time to ms, I am currently usin regex, which I do not like. Plus it os only available in C++ 11 and above. So, I have to write an alternative for that.
 
-I am also planning to make this parser a single header library. After solving the abbove issues I'll work on that and upload it as an entirely new repository.
+I am also planning to make this parser a single header library. After solving the above issues I'll work on that and upload it as an entirely new repository.
 
 # Current Parse Output : 
 
