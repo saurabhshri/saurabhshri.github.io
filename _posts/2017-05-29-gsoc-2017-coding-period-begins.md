@@ -97,8 +97,8 @@ So here are the things I did during the community bonding period.
     a. [Creating a full blown (SRT) Subtitle Parser ](https://saurabhshri.github.io/2017/05/gsoc/creating-a-full-blown-srt-subtitle-parser)  
     
     b. [Simple yet powerful single header srt subtitle parsing library in cpp](https://saurabhshri.github.io/2017/05/gsoc/simple-yet-powerful-single-header-srt-subtitle-parsing-library-in-cpp)  
-  
-  I have also begun working on setting up testing scripts which will help me during coding period.
+
+    I have also begun working on setting up testing scripts which will help me during coding period.
   
 7. Researching
 
