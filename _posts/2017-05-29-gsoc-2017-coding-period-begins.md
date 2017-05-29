@@ -81,7 +81,7 @@ So here are the things I did during the community bonding period.
   ![]({{site.baseurl}}/images/posts/sample.PNG)  
   _Some Ted samples_
     
-  Also, Carlos is sending a 2 TB disk loaded with transport streams recorded from various TV stations. Let's see when I get to recieve that.
+	 Also, Carlos is sending a 2 TB disk loaded with transport streams recorded from various TV stations. Let's see when I get to recieve that.
     
 6. Started coding early. 
 
@@ -94,9 +94,9 @@ So here are the things I did during the community bonding period.
     
     Link to relevant blog posts :
     
-  - [Creating a full blown (SRT) Subtitle Parser ](https://saurabhshri.github.io/2017/05/gsoc/creating-a-full-blown-srt-subtitle-parser)
-  
-  - [Simple yet powerful single header srt subtitle parsing library in cpp](https://saurabhshri.github.io/2017/05/gsoc/simple-yet-powerful-single-header-srt-subtitle-parsing-library-in-cpp)
+    - [Creating a full blown (SRT) Subtitle Parser ](https://saurabhshri.github.io/2017/05/gsoc/creating-a-full-blown-srt-subtitle-parser)
+    
+    - [Simple yet powerful single header srt subtitle parsing library in cpp](https://saurabhshri.github.io/2017/05/gsoc/simple-yet-powerful-single-header-srt-subtitle-parsing-library-in-cpp)
   
   I have also begun working on setting up testing scripts which will help me during coding period.
   
