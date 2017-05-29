@@ -94,9 +94,9 @@ So here are the things I did during the community bonding period.
     
     Link to relevant blog posts :
     
-    - [Creating a full blown (SRT) Subtitle Parser ](https://saurabhshri.github.io/2017/05/gsoc/creating-a-full-blown-srt-subtitle-parser)
+    a. [Creating a full blown (SRT) Subtitle Parser ](https://saurabhshri.github.io/2017/05/gsoc/creating-a-full-blown-srt-subtitle-parser)  
     
-    - [Simple yet powerful single header srt subtitle parsing library in cpp](https://saurabhshri.github.io/2017/05/gsoc/simple-yet-powerful-single-header-srt-subtitle-parsing-library-in-cpp)
+    b. [Simple yet powerful single header srt subtitle parsing library in cpp](https://saurabhshri.github.io/2017/05/gsoc/simple-yet-powerful-single-header-srt-subtitle-parsing-library-in-cpp)  
   
   I have also begun working on setting up testing scripts which will help me during coding period.
   
