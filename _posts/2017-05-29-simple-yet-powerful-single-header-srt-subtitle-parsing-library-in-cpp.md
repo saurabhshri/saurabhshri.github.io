@@ -43,21 +43,21 @@ I could not find any other subtitle parser / parsing library which was apt for m
 
 1. Include the header file in your program.
 
-```cpp
-	#include "srtparser.h"
-```
+    ```cpp
+        #include "srtparser.h"
+    ```
 2. Create SubtitleParserFactory object. Use this factory object to create SubtitleParser object.
 
-```cpp
-    SubtitleParserFactory *subParserFactory = new SubtitleParserFactory("inputFile.srt");
-    SubtitleParser *parser = subParserFactory->getParser();
-```
+    ```cpp
+        SubtitleParserFactory *subParserFactory = new SubtitleParserFactory("inputFile.srt");
+        SubtitleParser *parser = subParserFactory->getParser();
+    ```
 3. Use the parser. 😉
 
-```cpp
-    std::vector<SubtitleItem*> sub = parser->getSubtitles();
-    long int startTime = sub→getStartTime();
-```
+    ```cpp
+        std::vector<SubtitleItem*> sub = parser->getSubtitles();
+        long int startTime = sub→getStartTime();
+    ```
 
 
 **Read more about the available functions in this easy to read and explanatory table** : [https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp#parser-functions](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp#parser-functions) .
@@ -69,7 +69,7 @@ You may also checkout a demo program using this library in `example/` directory.
 Following is the list of all fields present in subtitle item :
 ```cpp
 
-	long int _startTime;                    //in milliseconds
+    long int _startTime;                    //in milliseconds
     
     long int _endTime;
     
