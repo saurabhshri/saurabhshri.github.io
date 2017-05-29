@@ -11,10 +11,17 @@ description: >-
 categories:
   - GSoC
 tags: GSoC open-source Subtitles Parser C++ SRT
+headline: ''
+modified: ''
+imagefeature: ''
 ---
 Creating a C++ subtitle parsing library to fetch and process subtitle file easily and efficiently.
 
-For my GSoC 2017 project, [CCAilgner - Word by Word Audio Subtitle Synchronization Tool](https://saurabhshri.github.io/2017/05/gsoc/accepted-in-google-summer-of-code-2017), the very first step required is processing of subtitle to extract primarily two things - the words those are being spoken, and time duration in which they are being spoken. 
+> EDIT: I have completed building the parser, read more about it here : [https://saurabhshri.github.io/2017/05/gsoc/simple-yet-powerful-single-header-srt-subtitle-parsing-library-in-cpp](https://saurabhshri.github.io/2017/05/gsoc/simple-yet-powerful-single-header-srt-subtitle-parsing-library-in-cpp).
+
+
+
+For my GSoC 2017 project, [CCAligner - Word by Word Audio Subtitle Synchronization Tool](https://saurabhshri.github.io/2017/05/gsoc/accepted-in-google-summer-of-code-2017), the very first step required is processing of subtitle to extract primarily two things - the words those are being spoken, and time duration in which they are being spoken. 
 
 A usual SubRip (SRT) subtile file has 4 basic components :
 
