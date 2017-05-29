@@ -51,7 +51,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
 future:      true
-highlighter: rouge
+#highlighter: rouge
 markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
