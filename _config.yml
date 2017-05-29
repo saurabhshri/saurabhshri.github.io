@@ -51,29 +51,14 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
 future:      true
-#highlighter: rouge
-markdown:    kramdown
+highlighter: rouge
+#markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
 highlight_theme: light
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:year/:month/:categories/:title
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-  input: GFM
-
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 prose:
   rooturl: '_posts'
