@@ -111,7 +111,7 @@ for(SubtitleItem * element : sub)
 
 For the input : 
 
-```bash
+```
 1
 00:00:00,520 --> 00:00:03,536
 Chris Anderson:
