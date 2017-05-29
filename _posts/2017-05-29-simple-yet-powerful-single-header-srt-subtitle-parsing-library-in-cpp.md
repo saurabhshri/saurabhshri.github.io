@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: true
 comments: true
-date: 2017-05-29 11:11:00 +0530
+date: '2017-05-29 11:11:00 +0530'
 title: Simple yet powerful single header srt subtitle parsing library in cpp
 description: >-
   srtparser.h is a single header simple to use powerful subtitle parsing  C++
@@ -17,7 +17,7 @@ Srtparser.h : Simple, yet powerful single header C++ SRT Subtitle Parser Library
 
 This is a follow-up blog post to my [previous post](https://saurabhshri.github.io/2017/05/gsoc/creating-a-full-blown-srt-subtitle-parser), where I began implementing a fully functional but simple to use subtitle parser in C++ for my [GSoC project](https://saurabhshri.github.io/2017/05/gsoc/accepted-in-google-summer-of-code-2017).
 
-I am happy to announce that the subtitle parser is ready. You may access it here : https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp
+I am happy to announce that the subtitle parser is ready. **You may access it here** : https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp
 
 I have tried my best to document it in the Github repo, and it should be fairely easy to use. But in case you have any doubt or you need any help, feel free to contact me or raise an issue in that Github repo, I will be happy to help. 😁
 
@@ -40,18 +40,18 @@ I could not find any other subtitle parser / parsing library which was apt for m
 
 1. Include the header file in your program.
 
-```
+```cpp
 	#include "srtparser.h"
 ```
 2. Create SubtitleParserFactory object. Use this factory object to create SubtitleParser object.
 
-```
+```cpp
     SubtitleParserFactory *subParserFactory = new SubtitleParserFactory("inputFile.srt");
     SubtitleParser *parser = subParserFactory->getParser();
 ```
 3. Use the parser. 😉
 
-```
+```cpp
     std::vector<SubtitleItem*> sub = parser->getSubtitles();
     long int startTime = sub→getStartTime();
 ```
@@ -64,6 +64,7 @@ You may also checkout a demo program using this library in `example/` directory.
 ### Elements present in subtitle - item
 
 Following is the list of all fields present in subtitle item :
+```cpp
 
 	long int _startTime;                    //in milliseconds
     
@@ -99,6 +100,7 @@ Following is the list of all fields present in subtitle item :
     
     std::vector<std::string> _styleTag;     //list of style tags in that subtitle
     
+```    
 
 ### Downloading the header file.
 
@@ -121,5 +123,3 @@ srtparser.h library is licensed under MIT License (find it here). Feel free to u
 Feel free to raise an issue or make a feature request [here](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp/issues).
 
 Also, feel free to contribute to the project. Your help would highly be appreciated! 😀
-
-    
