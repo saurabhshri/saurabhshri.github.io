@@ -52,13 +52,21 @@ links:
 timezone:    Asia/Kolkata
 future:      true
 #highlighter: rouge
-#markdown:    kramdown
+markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
 highlight_theme: light
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:year/:month/:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  input: GFM
+  syntax_highlighter: rouge  
 
 prose:
   rooturl: '_posts'

@@ -1,3 +1,20 @@
+code {
+  color: #FFFFFF;
+  background-color: #272822;
+  padding: 0.15rem;
+  border-radius: 0.15rem;
+}
+
+.highlight {
+    background-color: #272822;
+    color: #FFFFFF;
+    max-width: 56.25rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0px auto 2em;
+    font-family: Inconsolata,"Liberation Mono",Courier,monospace;
+}
+
 pre.highlight,
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #22282A }
