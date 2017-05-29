@@ -4,6 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: true
+date: 2017-05-29 15:10:00 +0530
 title: 'GSoC 2017 : End of Community Bonding Period'
 description: >-
   Community bonding period ends on 30th May and coding period officially begins

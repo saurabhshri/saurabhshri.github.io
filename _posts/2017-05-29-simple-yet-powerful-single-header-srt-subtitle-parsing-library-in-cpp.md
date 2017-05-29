@@ -4,6 +4,7 @@ published: true
 mathjax: false
 featured: true
 comments: true
+date: 2017-05-29 11:11:00 +0530
 title: Simple yet powerful single header srt subtitle parsing library in cpp
 description: >-
   srtparser.h is a single header simple to use powerful subtitle parsing  C++

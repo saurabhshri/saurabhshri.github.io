@@ -4,6 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: true
+date: 2017-05-29 19:30:00 +0530
 title: 'GSoC 2017, Coding Period Begins! ⚡'
 description: >-
   My experience and work  during community bonding period of GSoC 2017 with
