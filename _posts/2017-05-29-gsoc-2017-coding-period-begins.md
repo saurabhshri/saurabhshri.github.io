@@ -78,10 +78,10 @@ So here are the things I did during the community bonding period.
 
    To find such samples I enquired various people like creator of Kaldi based forced-aligner Gentle and CMUSphinx community. Nikolay from CMUSphinx gave me a very good idea to use Ted Talks as sample. They fit both my primary requirements and are easily available to download as well.
     
-  ![]({{site.baseurl}}/images/posts/sample.PNG)  
-  _Some Ted samples_
+    ![]({{site.baseurl}}/images/posts/sample.PNG)  
+    _Some Ted samples_
     
-	 Also, Carlos is sending a 2 TB disk loaded with transport streams recorded from various TV stations. Let's see when I get to recieve that.
+	Also, Carlos is sending a 2 TB disk loaded with transport streams recorded from various TV stations. Let's see when I get to recieve that.
     
 6. Started coding early. 
 
