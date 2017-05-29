@@ -13,6 +13,7 @@ categories:
 tags: GSoC open-source Subtitles Parser C++ SRT
 headline: ''
 modified: ''
+date: ''
 imagefeature: ''
 ---
 Creating a C++ subtitle parsing library to fetch and process subtitle file easily and efficiently.
@@ -89,7 +90,7 @@ I am also planning to make this parser a single header library. After solving th
 
 I have implemented a lot of functions in my SRT parser,here's a demo of some of them :
 
-```
+```C++
 for(SubtitleItem * element : sub)
     {
         myfile<<"start : "<<element->getStartTime()<<endl;
