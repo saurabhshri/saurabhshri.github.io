@@ -65,7 +65,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: true
   input: GFM
 
   coderay:
@@ -112,6 +112,11 @@ prose:
           element: "text"
           label: "Has this page been modified?"
           placeholder: "YYYY-MM-DD"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Enter Date : "
+          placeholder: "YYYY-MM-DD HH:MM:SS +/-TTTT"
       - name: "categories"
         field:
           element: "multiselect"
@@ -121,16 +126,12 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
+            - name: "gsoc-how"
+              value: gsoc-how
+            - name: "GSoC"
+              value: GSoC
+            - name: "News"
+              value: News
           alterable: true
       - name: "tags"
         field:

@@ -10,7 +10,7 @@ description: >-
   Community bonding period ends on 30th May and coding period officially begins
   for GSoC 2017.
 categories:
-  - GSoC-How
+  - gsoc-how
   - News
 ---
 Community bonding period, where students spend time learning and getting ready for their project, ends on 30th of May.
