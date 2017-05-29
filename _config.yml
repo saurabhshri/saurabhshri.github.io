@@ -112,11 +112,6 @@ prose:
           element: "text"
           label: "Has this page been modified?"
           placeholder: "YYYY-MM-DD"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Enter Date : "
-          placeholder: "YYYY-MM-DD HH:MM:SS +/-TTTT"
       - name: "categories"
         field:
           element: "multiselect"
