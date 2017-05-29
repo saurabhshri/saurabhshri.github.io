@@ -117,7 +117,7 @@ srtparser.h library is licensed under MIT License (find it here). Feel free to u
 
 ### Contribution and Feature request/ Bug
 
-Feel free to raise an issue or make a feature request here : https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp/issues .
+Feel free to raise an issue or make a feature request [here](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp/issues).
 
 Also, feel free to contribute to the project. Your help would highly be appreciated! 😀
 
