@@ -13,7 +13,6 @@ categories:
 tags: GSoC open-source Subtitles Parser C++ SRT
 headline: ''
 modified: ''
-date: ''
 imagefeature: ''
 ---
 Creating a C++ subtitle parsing library to fetch and process subtitle file easily and efficiently.
