@@ -14,7 +14,6 @@ categories:
   - GSoC
 tags: GSoC CCExtractor project update srt subtitles
 imagefeature: posts/header_cb.jpg
-modified: ''
 ---
 This marks the ending of a month long community bonding period. Fine-tuning deliverable, setting up timeline, early coding and much more, here's my GSoC 2017 community bonding experience with CCExtractor Development. 😊
 

@@ -13,7 +13,6 @@ categories:
   - GSoC
 tags: GSoC open-source Subtitles Parser C++ SRT
 headline: ''
-modified: ''
 imagefeature: ''
 ---
 Srtparser.h : Simple, yet powerful single header C++ SRT Subtitle Parser Library. 💖
