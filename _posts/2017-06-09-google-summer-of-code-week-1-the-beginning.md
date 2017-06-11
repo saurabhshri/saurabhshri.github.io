@@ -10,7 +10,7 @@ description: >-
   Weekly updates related to work #1. Completed milestones, new discoveries, bug
   fixes in the first week of GSoC 2017.
 headline: GSoC with CCExtractor | Saurabh Shrivastava
-modified: 2017-06-11 19:30:00 +0530
+modified: 2017-06-11
 categories:
   - GSoC
 tags: GSoC CCAligner CCExtractor project update srt subtitles VAD wave audio
