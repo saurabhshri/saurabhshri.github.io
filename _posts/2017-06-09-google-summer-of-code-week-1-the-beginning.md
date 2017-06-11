@@ -13,7 +13,7 @@ modified: '2017-06-11'
 categories:
   - GSoC
 tags: GSoC CCAligner CCExtractor project update srt subtitles VAD wave audio
-imagefeature: /posts/week1.PNG
+imagefeature: images/posts/week1.PNG
 ---
 It has been two days since Google Summer of Code's first of thirteen weeks ended. I have started working on my project CCAligner - Word by Word Audio Subtitle Synchronization with CCExtractor Development.
 
@@ -38,6 +38,8 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     - `lib_ext` 		: This shall contain all the [external libraries](https://github.com/saurabhshri/CCAligner/tree/master/src/lib_ext/) that I'll use.
     - `lib_ccaligner`	: This shall contain the [CCAligner library](https://github.com/saurabhshri/CCAligner/tree/master/src/lib_ccaligner).
     
+    
+    
 	```bash
     ├───demo
     │   ├───ApproxAligner
@@ -60,7 +62,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
     Since, the code is in the form of library, it's very easy to use. The demo can be found in the `demo` directory which is linked [here](https://github.com/saurabhshri/CCAligner/tree/master/demo "Approx Alignment Demo."). 
     
-    ```C++
+    ```cpp
     #include "generate_approx_timestamp.h"
 
     int main()
@@ -120,7 +122,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
     I did search the _discuss-webRTC_ Google group, but there was nothing to be found in the forum. I even asked them on their IRC channel, but I was instructed to ask the question on StackOverflow, which I did. I was not very sure that someone would answer and when I saw the stats for webRTC related question, that increased my suspicion.
     
-    ![Unanswered questions in webRTC tag.]({{site.baseurl}}/images/posts/unanswered.PNG)
+    ![Unanswered questions in webRTC tag.]({{site.baseurl}}/images/posts/unanswered.PNG)  
     _68.4% Questions Unanswered in last 30 days._
 	
     Fortuantely I found out that there is a python wrapper of webRTC's VAD in the Github. I immediately sent an email to [John Wiseman](https://github.com/wiseman), who created the awesome [py-webrtcvad](https://github.com/wiseman/py-webrtcvad) and asked him if he could help. Now, I wasn't sure that I would find a reply. So, I looked into the SO stats to see the "most active" members on the webRTC tag and also emailed two people from there.
@@ -135,7 +137,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
 ## What's next?
 
-	This was the first of total thirteen weeks. There's a lot of work left. The work already done is also pretty raw and there's a room for tons of improvement. My mentors have suggested a few changes as well. E.g. The tool needs to be able to read directly from the stream (like the data being piped from FFMPEG). I will stick to the timeline and continue the work. I am in constant contact with my mentors and shall work in accordance with their feedbacks.
+   This was the first of total thirteen weeks. There's a lot of work left. The work already done is also pretty raw and there's a room for tons of improvement. My mentors have suggested a few changes as well. E.g. The tool needs to be able to read directly from the stream (like the data being piped from FFMPEG). I will stick to the timeline and continue the work. I am in constant contact with my mentors and shall work in accordance with their feedbacks.
     
     The sencond week has already commenced and the evaluations are in the June end. I hope other GSoC participants are enjoying their work as well! 
 
