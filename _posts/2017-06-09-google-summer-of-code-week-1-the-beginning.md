@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: true
 comments: true
-title: 'Google Summer of Code, Week 1 :  The Beginning!'
+title: "Google Summer of Code, Week 1 :  The Beginning! \uD83D\uDD7A"
 description: >-
   Weekly updates related to work #1. Completed milestones, new discoveries, bug
   fixes in the first week of GSoC 2017.
@@ -13,21 +13,21 @@ modified: '2017-06-11'
 categories:
   - GSoC
 tags: GSoC CCAligner CCExtractor project update srt subtitles VAD wave audio
-imagefeature: images/posts/week1.PNG
+imagefeature: posts/week1.PNG
 ---
 It has been two days since Google Summer of Code's first of thirteen weeks ended. I have started working on my project CCAligner - Word by Word Audio Subtitle Synchronization with CCExtractor Development.
 
-> My progress could be tracked through weekly checklist for milestones and tasks,  which can be accessed here : https://saurabhshri.github.io/gsoc/ .
+> My progress could be tracked through weekly checklist for milestones and tasks,  which can be accessed here : [https://saurabhshri.github.io/gsoc/](https://saurabhshri.github.io/gsoc/) .
 
 With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05/gsoc-how/news/gsoc-2017-end-of-community-bonding-period), the [coding period officially began](https://saurabhshri.github.io/2017/05/gsoc/gsoc-2017-coding-period-begins). This is how I spent the first week of coding period :
 
-1. Setting-up the new server.
+1. Setting-up the new server. 💻  
 
 	As I mentioned in the last post, I was already done with setting-up my development environment. But I had made a request for a dedicated server of my own with root access and Carlos (CCExtractor Org admin, my co-mentor) got me one! :) It's a nice little server running Ubuntu Server. This was the first time I used such a vanilla version of linux. It's super light out of the box and has absolutely nothing (just the linux) installed. It was so much setting up the server according to my preferences. Carlos said to treat it like my own personal desktop!
     
     I also installed x2go in it so that I can also "visually" see the changes I am making. It's super-helpful while debugging.
     
-2. Started building basic skeleton of tool.
+2. Started building basic skeleton of tool.  
 
 	> CCAligner can be found on Github at : [https://github.com/saurabhshri/CCAligner/](https://github.com/saurabhshri/CCAligner/ "CCAligner - word by word audio subtitle synchronisation")
 
@@ -82,7 +82,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
     It has room for ton of improvement, which I definitely will do with the course of time. Everything is currently pretty raw, as you'll expect a software to be in it's primary stages. And yes, I'll begin naming my header files in a better way! :P
     
-4. Set-up a small testing environment.
+4. Set-up a small testing environment. ✔️  
 
 	As mentioned in the last post, I have collected quite a lot of samples, a mojority of which are Ted talks (as they have clear speech as well as good subtitles). Previously I worked on [improving CCExtractor Sample-Platform's difference showing library](https://github.com/canihavesomecoffee/sample-platform/commit/4b6cc37ab9bbcce81e5c78f6dbe5dffd297f5ca8). I extended this so that I can compare the output of the tool with the actual results, and also to compare results across various techniques.
     
@@ -96,7 +96,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
     I did encounter few bugs while decoding wave files. Though the bugs were pretty small and easily fixable, they took some time to get spotted.
     
-    1. When I read the wave files in buffer, and used it to create a new wave file, for no apparent reason, the output was a very scattered and noisy version. Now, it felt pretty ridiculous to me that how can the output be different if all I am doing is readin it as it is and sending it as output.
+    1.When I read the wave files in buffer, and used it to create a new wave file, for no apparent reason, the output was a very scattered and noisy version. Now, it felt pretty ridiculous to me that how can the output be different if all I am doing is readin it as it is and sending it as output.
     
     ![Difference in input and output wave files.]({{site.baseurl}}/images/posts/reading_wav_file_cpp.jpg)
     _Difference in input and output wave files._
@@ -110,9 +110,9 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
     Now, it became clear. Everywhere in the file, `0a` was replaced by `0a0d`. Now this immediately raised a question in my mind. Could it be..? I [Googled it](https://www.google.co.in/search?q=0a+replaced+by+0a0d&oq=0a+replaced+by+0a0d&aqs=chrome..69i57.5652j0j7&sourceid=chrome&ie=UTF-8 "0a replaced by 0a0d"), and yes! It was the endline characters. All the `LF` were converted to `CRLF` leading to the distortion in the output file. Turn out, while I was reading the file in binary format, I was writing it in the text format, which led to this fiasco. Once the bug found, setting the `ios::binary` flag was all it took.
     
-    2. Another intresting thing that happened was, everything was being decoded perfectly, [except the SampleRate](https://github.com/saurabhshri/CCAligner/commit/aa5c9aa33be37777e812f1d7d87a30ab5caba49e "Fixing negative values."). This was strange because it was in the middle of various value - which  were decoded perfectly. I had to read the detailed specification to find out that the data is in the form of unsigned values. I had not considered it and I was storing it in signed char. So, where the values should be, say for example, 255 it stored -128.
+    2.Another intresting thing that happened was, everything was being decoded perfectly, [except the SampleRate](https://github.com/saurabhshri/CCAligner/commit/aa5c9aa33be37777e812f1d7d87a30ab5caba49e "Fixing negative values."). This was strange because it was in the middle of various value - which  were decoded perfectly. I had to read the detailed specification to find out that the data is in the form of unsigned values. I had not considered it and I was storing it in signed char. So, where the values should be, say for example, 255 it stored -128.
     
-    3. The specs which I used for reference were incomplete. It missed the fact that the wave file is not necessarily 44 Bytes and that it may contain some meta-data. So, to find the _data subchunk_, I [manually searched for them](https://github.com/saurabhshri/CCAligner/commit/e421fb2baac72f615647f49bbac2d45b09669b8f "Compensating for presence of metadata in the wave file header") in the stream.
+    3.The specs which I used for reference were incomplete. It missed the fact that the wave file is not necessarily 44 Bytes and that it may contain some meta-data. So, to find the _data subchunk_, I [manually searched for them](https://github.com/saurabhshri/CCAligner/commit/e421fb2baac72f615647f49bbac2d45b09669b8f "Compensating for presence of metadata in the wave file header") in the stream.
     
     At the end, the [wave files are now being correctly read](https://github.com/saurabhshri/CCAligner/commit/66f249027fa653d25e4045c95c5178d07c3616d2), and the the samples are collected as a vector of 16 bit integers (unsigned short int) : `vector<int16_t> _samples`.
     
@@ -137,8 +137,6 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
 ## What's next?
 
-   This was the first of total thirteen weeks. There's a lot of work left. The work already done is also pretty raw and there's a room for tons of improvement. My mentors have suggested a few changes as well. E.g. The tool needs to be able to read directly from the stream (like the data being piped from FFMPEG). I will stick to the timeline and continue the work. I am in constant contact with my mentors and shall work in accordance with their feedbacks.
+This was the first of total thirteen weeks. There's a lot of work left. The work already done is also pretty raw and there's a room for tons of improvement. My mentors have suggested a few changes as well. E.g. The tool needs to be able to read directly from the stream (like the data being piped from FFMPEG). I will stick to the timeline and continue the work. I am in constant contact with my mentors and shall work in accordance with their feedbacks.
     
-    The sencond week has already commenced and the evaluations are in the June end. I hope other GSoC participants are enjoying their work as well! 
-
-**PS** I wrote this blog post on 9th June, but the push failed and I came to know about it today. Sorry for that.
+The sencond week has already commenced and the evaluations are in the June end. I hope other GSoC participants are enjoying their work as well! 📈
