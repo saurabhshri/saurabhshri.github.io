@@ -2,14 +2,15 @@
 layout: post
 published: true
 mathjax: false
-featured: true
+featured: flase
 comments: true
-title: "Google Summer of Code, Week 1 :  The Beginning! \uD83D\uDD7A"
+date: 2017-06-09 19:30:00 +0530
+title: 'Google Summer of Code, Week 1 :  The Beginning! 🕺'
 description: >-
   Weekly updates related to work #1. Completed milestones, new discoveries, bug
   fixes in the first week of GSoC 2017.
 headline: GSoC with CCExxtractor | Saurabh Shrivastava
-modified: '2017-06-11'
+modified: 2017-06-11 19:30:00 +0530
 categories:
   - GSoC
 tags: GSoC CCAligner CCExtractor project update srt subtitles VAD wave audio
