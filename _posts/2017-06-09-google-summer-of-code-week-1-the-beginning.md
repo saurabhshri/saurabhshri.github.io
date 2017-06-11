@@ -2,14 +2,14 @@
 layout: post
 published: true
 mathjax: false
-featured: flase
+featured: false
 comments: true
 date: 2017-06-09 19:30:00 +0530
 title: 'Google Summer of Code, Week 1 :  The Beginning! 🕺'
 description: >-
   Weekly updates related to work #1. Completed milestones, new discoveries, bug
   fixes in the first week of GSoC 2017.
-headline: GSoC with CCExxtractor | Saurabh Shrivastava
+headline: GSoC with CCExtractor | Saurabh Shrivastava
 modified: 2017-06-11 19:30:00 +0530
 categories:
   - GSoC
@@ -34,7 +34,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
 
 	I made a rough sketch of how the general hierarchy will be in the project. I will try to make my tool as modular as possible, and also in the way that it can be easily used as a library in other projects. It's often difficult to "librarise" the code after creating, so even if it consumes some extra time, it's better in my belief to begin doing the same.
     
-    In general, their are two main directories inside the `source` directory - 
+    In general, there are two main directories inside the `source` directory - 
     
     - `lib_ext` 		: This shall contain all the [external libraries](https://github.com/saurabhshri/CCAligner/tree/master/src/lib_ext/) that I'll use.
     - `lib_ccaligner`	: This shall contain the [CCAligner library](https://github.com/saurabhshri/CCAligner/tree/master/src/lib_ccaligner).
@@ -59,7 +59,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
 3. Begin writing the implementation of approximation based word tagging.
 
-	Using the subtitle parser I created, I began writing the implementation of approximating the timestamp of a word based on it's weight (calculated as a function of ratio of word length to sentence length). This is a super fast method to calculate the timestamp of each word and doesn't require any type of audio processing. But obviously, this has very poor accuracy. Nonetheless this shall come in handy where audio - analysis is _not_ feasiable and we require the sync super-fast without caring much about accuracy. Not to forget, this will provide us with a better window to analyse the word when audio analysis will come into the picture.
+	Using the [subtitle parser I created](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp), I began writing the implementation of approximating the timestamp of a word based on it's weight (calculated as a function of ratio of word length to sentence length). This is a super fast method to calculate the timestamp of each word and doesn't require any type of audio processing. But obviously, this has very poor accuracy. Nonetheless this shall come in handy where audio - analysis is _not_ feasiable and we require the sync super-fast without caring much about accuracy. Not to forget, this will provide us with a better window to analyse the word when audio analysis will come into the picture.
     
     Since, the code is in the form of library, it's very easy to use. The demo can be found in the `demo` directory which is linked [here](https://github.com/saurabhshri/CCAligner/tree/master/demo "Approx Alignment Demo."). 
     
@@ -87,17 +87,17 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
 
 	As mentioned in the last post, I have collected quite a lot of samples, a mojority of which are Ted talks (as they have clear speech as well as good subtitles). Previously I worked on [improving CCExtractor Sample-Platform's difference showing library](https://github.com/canihavesomecoffee/sample-platform/commit/4b6cc37ab9bbcce81e5c78f6dbe5dffd297f5ca8). I extended this so that I can compare the output of the tool with the actual results, and also to compare results across various techniques.
     
-    I have also set-up Travis-CI to check builds accross linux and OSX with every commit to the repository. Soon, I'll add the test scripts to it as well. This will be a step towards test driven development.
+    I have also set-up Travis-CI to check builds across linux and OSX with every commit to the repository. Soon, I'll add the test scripts to it as well. This will be a step towards test driven development.
     
 5. Start implementation for audio based processing.
 
-	The very first step in this region was being able to read audio files and extract data. For this my code should be able to take wave file as input, check if the file is valid or not, and then decode it to extract information such as SampleRate, BitRate, etc. and the samples (which contain the audio data) itself. This was an intresting job. While I could find some code online that did the _reading_, but they were not utilising the onject oriented approach and also, did not read the data in the manner desired for my use.
+	The very first step in this region was being able to read audio files and extract data. For this my code should be able to take wave file as input, check if the file is valid or not, and then decode it to extract information such as SampleRate, BitRate, etc. and the samples (which contain the audio data) itself. This was an intresting job. While I could find some code online that did the _reading_, but they were not utilising the object oriented approach and also, did not read the data in the manner desired for my use.
     
     So, I searched for the wave file specifications online. The official Microsoft's document was not the example of best specification-documentation I have seen, but was OK. Fortunately, I found another one which was very well written, and was precise. If you are interested, it is located [here](http://soundfile.sapp.org/doc/WaveFormat/ "Wave File Specifications").
     
     I did encounter few bugs while decoding wave files. Though the bugs were pretty small and easily fixable, they took some time to get spotted.
     
-    1.When I read the wave files in buffer, and used it to create a new wave file, for no apparent reason, the output was a very scattered and noisy version. Now, it felt pretty ridiculous to me that how can the output be different if all I am doing is readin it as it is and sending it as output.
+    1.When I read the wave files in buffer, and used it to create a new wave file, for no apparent reason, the output was a very scattered and noisy version. Now, it felt pretty ridiculous to me that how can the output be different if all I am doing is reading it as it is and sending it as output.
     
     ![Difference in input and output wave files.]({{site.baseurl}}/images/posts/reading_wav_file_cpp.jpg)
     _Difference in input and output wave files._
@@ -134,10 +134,10 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
     
 7. Fixed the CMake build script of CCExtractor for windows.
 
-	CCExtractor had broken CMakeLists.txt since a long time. Due to this, the only way to compile it on Windows was using Visual Studio. I prefer to work in CLion so I spent some time and [fixed the CMake list](https://github.com/CCExtractor/ccextractor/commit/51d936bc9076e131b4e8b089c664251c3d2f2861). It should also be helpful in bringing the Windos support to Sample-Platform which can use this to build it.
+	CCExtractor had broken CMakeLists.txt since a long time. Due to this, the only way to compile it on Windows was using Visual Studio. I prefer to work in CLion so I spent some time and [fixed the CMake list](https://github.com/CCExtractor/ccextractor/commit/51d936bc9076e131b4e8b089c664251c3d2f2861). It should also be helpful in bringing the Windows support to Sample-Platform which can use this to build it.
     
 ## What's next?
 
 This was the first of total thirteen weeks. There's a lot of work left. The work already done is also pretty raw and there's a room for tons of improvement. My mentors have suggested a few changes as well. E.g. The tool needs to be able to read directly from the stream (like the data being piped from FFMPEG). I will stick to the timeline and continue the work. I am in constant contact with my mentors and shall work in accordance with their feedbacks.
     
-The sencond week has already commenced and the evaluations are in the June end. I hope other GSoC participants are enjoying their work as well! 📈
+The second week has already commenced and the evaluations are in the June end. I hope other GSoC participants are enjoying their work as well! 📈
