@@ -24,7 +24,7 @@ With the [end of Community Bonding Period](https://saurabhshri.github.io/2017/05
 
 1. Setting-up the new server. 💻  
 
-	As I mentioned in the last post, I was already done with setting-up my development environment. But I had made a request for a dedicated server of my own with root access and Carlos (CCExtractor Org admin, my co-mentor) got me one! :) It's a nice little server running Ubuntu Server. This was the first time I used such a vanilla version of linux. It's super light out of the box and has absolutely nothing (just the linux) installed. It was so much setting up the server according to my preferences. Carlos said to treat it like my own personal desktop!
+	As I mentioned in the last post, I was already done with setting-up my development environment. But I had made a request for a dedicated server of my own with root access and Carlos (CCExtractor Org admin, my co-mentor) got me one! :) It's a nice little server running Ubuntu Server. This was the first time I used such a vanilla version of linux. It's super light out of the box and has absolutely nothing (just the linux) installed. It was so much fun setting up the server according to my preferences.
     
     I also installed x2go in it so that I can also "visually" see the changes I am making. It's super-helpful while debugging.
     
