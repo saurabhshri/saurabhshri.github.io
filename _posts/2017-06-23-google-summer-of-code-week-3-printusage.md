@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: "Google Summer of Code, Week 3 : printUsage(); \uD83D\uDDA8"
+title: 'Google Summer of Code, Week 3 : printUsage(); 🖨'
 description: >-
   Today marks the end of three of thirteen weeks of Google Summer of Code's
   coding period. This week I implemented a simple user interface, added various
