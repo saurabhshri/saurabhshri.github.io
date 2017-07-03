@@ -27,32 +27,32 @@ There are 3 modes in which wave files can be read.
 
 - File is present on disk. This is the most common usage scenario when the file is present in the disk. If filename is passed to `WaveFileReader` constructor then it uses this method.
 
-	```CPP
-    		WaveFileData * file = new WaveFileData(argv[1]);	//supply filename
-            file->read();
-            std::vector<int16_t> samples = file->getSamples();	//return samples
-    ```
+```
+	WaveFileData * file = new WaveFileData(argv[1]);	//supply filename
+    file->read();
+    std::vector<int16_t> samples = file->getSamples();	//return samples
+```
     
     For example : `./ccaligner input.wav`
     
 - Data is piped/streamed. This is helpful when the wave file is not present butis being generated. This helps in making the tool capable of fitting into pipelines.
 
-	```CPP
-    		WaveFileData * file = new WaveFileData();	//will read from pipe or stream
-            file->read();
-            std::vector<int16_t> samples = file->getSamples();	//return samples
-    ```
+```
+	WaveFileData * file = new WaveFileData();	//will read from pipe or stream
+    file->read();
+    std::vector<int16_t> samples = file->getSamples();	//return samples
+```
     
     For example : `ffmpeg [arguments] | ./ccaligner`
     
 - Data is piped/streamed and is first stored in buffer and then processed. This is helpful when we need to ensure that we have complete data before proceeding. This too helps in making the tool capable of fitting into pipelines.
 
-    ```CPP
-    		//readStreamIntoBuffer is an enum decalared in read_wave_file.h
-            WaveFileData * file = new WaveFileData(readStreamIntoBuffer); 
-            file->read();
-            std::vector<int16_t> samples = file->getSamples();  //return samples
-    ```
+```
+	//readStreamIntoBuffer is an enum decalared in read_wave_file.h
+    WaveFileData * file = new WaveFileData(readStreamIntoBuffer); 
+    file->read();
+    std::vector<int16_t> samples = file->getSamples();  //return samples
+```
     
     For example : `ffmpeg [arguments] | ./ccaligner -useBuffer`
     
