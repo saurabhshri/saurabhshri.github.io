@@ -4,15 +4,13 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: "Google Summer of Code, Week 4 : The Evaluations! ⚰\uD83D\uDC80"
+title: 'Google Summer of Code, Week 4 : The Evaluations! ⚰💀'
 description: "The fourth week ended on 29th of June marking the end of Phase 1 of coding period. The week  also comprised of the first evaluations, which would judge whether I will be continuing the program or fail. \uD83D\uDC80"
 headline: GSoC with CCExtractor | Saurabh Shrivastava
 categories:
   - GSoC
   - News
 tags: gsoc open-source subtitles  weekly-updates evaluations
-modified: ''
-imagefeature: ''
 ---
 The fourth week ended on 29th of June marking the end of Phase 1 of coding period. The week  also comprised of the first evaluations, which would judge whether I will be continuing the program or fail. 💀
 
