@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: "Google Summer of Code, Week 5 & 6 : What'd You Say?\uD83D\uDC42"
+title: "Google Summer of Code, Week 5 & 6 : What'd You Say?👂"
 description: >-
   Almost two weeks have passed since the first evaluations and my last blog
   post. This blog post lays down the summary of work I've done in past two
