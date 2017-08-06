@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: 'Google Summer of Code, Week 7 & 8 : Let''s Karaoke!'
+title: 'Google Summer of Code, Week 7 & 8 : Let''s Karaoke! 🎤 '
 description: >-
   This blog post covers the work done in the last two weeks of the second phase
   of coding. I have updated the checklist of the deliverable for the second
@@ -121,8 +121,9 @@ Once the match is found, the word is marked as _recognised_ and it's starting an
 
 There are various output options added in which the results can be visualised. One of those options is addition of output as Karaoke mode. In this, the words that is being spoken is written in SRT format with a `<font>` tag. So, when the word is being spoken,it gets highlighted. Here's a gif with the excerpt from the respective karaoke subtitle file. This subtitle file was the result of karaoke output from ccaligner. 
 
-![Output Visualised as in Karaoke format!]({{site.baseurl}}/images/karaoke.gif)
-Output Visualised as in Karaoke format `--print-as-karaoke yes` .
+![Output Visualised as in Karaoke format!]({{site.baseurl}}/images/karaoke.gif)  
+
+_Output Visualised as in Karaoke format `--print-as-karaoke yes`_ .
 
 
 ```
