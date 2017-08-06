@@ -122,7 +122,6 @@ Once the match is found, the word is marked as _recognised_ and it's starting an
 There are various output options added in which the results can be visualised. One of those options is addition of output as Karaoke mode. In this, the words that is being spoken is written in SRT format with a `<font>` tag. So, when the word is being spoken,it gets highlighted. Here's a gif with the excerpt from the respective karaoke subtitle file. This subtitle file was the result of karaoke output from ccaligner. 
 
 ![Output Visualised as in Karaoke format!]({{site.baseurl}}/images/karaoke.gif)  
-
 _Output Visualised as in Karaoke format `--print-as-karaoke yes`_ .
 
 
