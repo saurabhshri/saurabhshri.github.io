@@ -4,13 +4,13 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: 'Google Summer of Code, The Mid Term Evaluations! 🤞’
+title: 'Google Summer of Code : Mid Term Evaluations! 🤞 ’
 description: >-
   Here I talk about how my mid term evaluation went, and what I am planning
   ahead.
 categories:
   - GSoC
-tags: 'gsoc open-source subtitles weekly-updates evaluations '
+tags: gsoc open-source subtitles weekly-updates evaluations
 ---
 With the ending of eight week of Google Summer of Code, second phase of conding is almost complete. This meant that it's time for mid term evaluations, which would judge whether I will be continuing the program or fail. 
 
