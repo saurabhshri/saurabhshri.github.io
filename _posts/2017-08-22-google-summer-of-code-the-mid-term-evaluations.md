@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: 'Google Summer of Code : Mid Term Evaluations!✍️ ’
+title: "Google Summer of Code : Mid Term Evaluations!✍️ "
 description: >-
   Here I talk about how my mid term evaluation went, and what I am planning
   ahead.
