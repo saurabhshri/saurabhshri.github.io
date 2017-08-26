@@ -1,7 +1,9 @@
 ---
 layout: page
 permalink: /gsoc-final-submission/index.html
-title: Google Summer of Code – Final Work Product Submission | CCAligner - Saurabh Shrivastava
+title: >-
+  Google Summer of Code – Final Work Product Submission | CCAligner - Saurabh
+  Shrivastava
 tags:
   - Google Summer of Code
   - CCAligner
@@ -14,9 +16,9 @@ tags:
 chart: true
 published: true
 description: >-
-  CCAligner : Word by Word Audio Subtitle Synchronisation. My project was aimed at word level synchronisation 
-  and alignment of subtitles with audio. This project was a part of GSoC 2017 Under CCExtractor by 
-  Saurabh Shrivastava.
+  CCAligner : Word by Word Audio Subtitle Synchronisation. My project was aimed
+  at word level synchronisation  and alignment of subtitles with audio. This
+  project was a part of GSoC 2017 Under CCExtractor by  Saurabh Shrivastava.
 comments: true
 categories:
   - GSoC
@@ -63,14 +65,14 @@ with          [6949100:6949313]
 
 The project comprises of both user friendly tool and developer friendly API.
 
-# Compilation
+## Compilation
 
 Make sure you all the dependencies are met (https://github.com/saurabhshri/CCAligner/blob/master/docs/installing_dependencies.adoc). Navigate
 to `install/` directory in the project and run `./build.sh`.
 
 Up-to-date instructions can be found at : https://github.com/saurabhshri/CCAligner/blob/master/docs
 
-# Usage
+## Usage
 
 The default output of CCAligner is stored as an XML file. For example, the next command will generate file.xml :
 
@@ -80,24 +82,24 @@ The default output of CCAligner is stored as an XML file. For example, the next 
 
 For complete list of options and parameters, please read the docs at : https://github.com/saurabhshri/CCAligner/blob/master/docs
 
-# Example Outputs
+## Example Outputs
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/38_27E1PxXA?ecver=2" style="position:absolute;width:100%;height:100%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/38_27E1PxXA?ecver=2" style="position:absolute;width:50%;height:50%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 1 : Sitcom</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/6VnhC8u_d40?ecver=2" style="position:absolute;width:100%;height:100%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/6VnhC8u_d40?ecver=2" style="position:absolute;width:50%;height:50%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 2 : Ted Talk</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/j_zeixo-zJY?ecver=2" style="position:absolute;width:100%;height:100%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/j_zeixo-zJY?ecver=2" style="position:absolute;width:50%;height:50%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 3 : Cartoon Show</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/8tTDX6NZGsU?ecver=2" style="position:absolute;width:100%;height:100%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/8tTDX6NZGsU?ecver=2" style="position:absolute;width:50%;height:50%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 4 : Discussion Video</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/tFrf0TVnqIQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/tFrf0TVnqIQ?ecver=2" style="position:absolute;width:50%;height:50%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner Video Transcription Demo : Reality Show</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/km1iHe_mGuo?ecver=2" style="position:absolute;width:100%;height:100%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/km1iHe_mGuo?ecver=2" style="position:absolute;width:50%;height:50%;left:0" height="100px" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>Approximate Word by Word Audio Subtitle Synchronization</figcaption>
 
 # Project Related Links
