@@ -84,22 +84,22 @@ For complete list of options and parameters, please read the docs at : https://g
 
 ## Example Outputs
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/38_27E1PxXA?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;"><iframe src="https://www.youtube.com/embed/38_27E1PxXA?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 1 : Sitcom</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/6VnhC8u_d40?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;"><iframe src="https://www.youtube.com/embed/6VnhC8u_d40?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 2 : Ted Talk</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/j_zeixo-zJY?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;"><iframe src="https://www.youtube.com/embed/j_zeixo-zJY?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 3 : Cartoon Show</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/8tTDX6NZGsU?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;"><iframe src="https://www.youtube.com/embed/8tTDX6NZGsU?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 4 : Discussion Video</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/tFrf0TVnqIQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;"><iframe src="https://www.youtube.com/embed/tFrf0TVnqIQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner Video Transcription Demo : Reality Show</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/km1iHe_mGuo?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%;max-width:56.25rem;margin-top:0px;margin-right:auto;margin-bottom:2em;margin-left:auto;"><iframe src="https://www.youtube.com/embed/km1iHe_mGuo?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>Approximate Word by Word Audio Subtitle Synchronization</figcaption>
 
 ## Project Related Links
