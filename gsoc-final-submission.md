@@ -84,22 +84,22 @@ For complete list of options and parameters, please read the docs at : https://g
 
 ## Example Outputs
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/38_27E1PxXA?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/38_27E1PxXA?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width: 56.25rem;margin: 0 auto 2em auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 1 : Sitcom</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/6VnhC8u_d40?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/6VnhC8u_d40?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width: 56.25rem;margin: 0 auto 2em auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 2 : Ted Talk</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/j_zeixo-zJY?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/j_zeixo-zJY?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width: 56.25rem;margin: 0 auto 2em auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 3 : Cartoon Show</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/8tTDX6NZGsU?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/8tTDX6NZGsU?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width: 56.25rem;margin: 0 auto 2em auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner output as karaoke - Demo 4 : Discussion Video</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/tFrf0TVnqIQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/tFrf0TVnqIQ?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width: 56.25rem;margin: 0 auto 2em auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>CCAligner Video Transcription Demo : Reality Show</figcaption>
 
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/km1iHe_mGuo?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/km1iHe_mGuo?ecver=2" style="position:absolute;width:100%;height:100%;left:0;max-width: 56.25rem;margin: 0 auto 2em auto;" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>Approximate Word by Word Audio Subtitle Synchronization</figcaption>
 
 ## Project Related Links
@@ -136,16 +136,16 @@ In addition to my main project, I also worked on creating a single header SubRip
 
 1. Created a single header SubRip subtitle parser library in C++. This served as a core in CCAligner subtitle handling. It has very huge number of options available, and is very simple to use.
 
-  - Project repository : [https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp)
-  - Documentation : [https://github.com/saurabhshri/CCAligner/tree/master/docs](https://github.com/saurabhshri/CCAligner/tree/master/docs)
+    - Project repository : [https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp](https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp)
+    - Documentation : [https://github.com/saurabhshri/CCAligner/tree/master/docs](https://github.com/saurabhshri/CCAligner/tree/master/docs)
 
 2. Improving existing CCExtractor features, fixing issues and help in PR and code reviews.
 
-  - All my commits to CCExtractor repository : [https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri](https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri)
+    - All my commits to CCExtractor repository : [https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri](https://github.com/CCExtractor/ccextractor/commits?author=saurabhshri)
 
 3. Improving CCExtractor's sample-platform, fixing and reporting issues, and help in PR and code reviews.
 
-  - All my commits to Sample-Platform repository : [https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri](https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri)
+    - All my commits to Sample-Platform repository : [https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri](https://github.com/canihavesomecoffee/sample-platform/commits?author=saurabhshri)
 
 4. Link to my Github profile : [https://github.com/saurabhshri/](https://github.com/saurabhshri/)
 
