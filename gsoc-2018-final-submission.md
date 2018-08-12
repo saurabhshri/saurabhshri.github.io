@@ -21,7 +21,7 @@ categories:
 featured: true
 ---
 <figure>
-  <img src="{{ site.url }}/images/ccextractor_gsoc.png" alt="CCExtractor and Google Summer of Code" style="width:35%;" >
+  <img src="{{ site.url }}/images/ccextractor_gsoc_2018.png" alt="CCExtractor and Google Summer of Code" style="width:35%;" >
   <figcaption>Google Summer of Code with CCExtractor Development</figcaption>
 </figure>
 
